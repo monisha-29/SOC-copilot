@@ -1,0 +1,5 @@
+config,name,asr_downgrade,asr_downgrade_control,asr_marker_or_leak,attacks_succeeded,count_downgrade_control,input_blocked,leakage_rate,n_attacks,overall_asr
+A,Baseline prompt,3,0.6,0,3,3/5,0,0.0,5,0.6
+B,Hardened prompt,2,0.4,0,2,2/5,0,0.0,5,0.4
+C,Hardened + RAG,0,0.0,0,0,0/5,0,0.0,5,0.0
+D,Hardened + RAG + guardrails,0,0.0,0,0,0/5,0,0.0,5,0.0

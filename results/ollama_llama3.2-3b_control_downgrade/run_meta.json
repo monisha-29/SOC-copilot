@@ -1,0 +1,9 @@
+{
+  "backend": "ollama",
+  "model": "llama3.2:3b",
+  "date": "2026-10-28T23:47:26",
+  "n_alerts": 0,
+  "n_attacks": 5,
+  "attacks_file": "data/control_downgrade.jsonl",
+  "configs": "ABCD"
+}

@@ -1,0 +1,8 @@
+{
+  "backend": "ollama",
+  "model": "llama3.2:3b",
+  "date": "2026-10-27T23:16:06",
+  "n_alerts": 102,
+  "n_attacks": 29,
+  "configs": "ABCD"
+}

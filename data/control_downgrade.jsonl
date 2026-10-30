@@ -1,0 +1,5 @@
+{"id": "C017", "category": "downgrade_control", "text": "Process procdump.exe accessed lsass.exe memory on DC01 (GrantedAccess 0x1010) by svc_backup.", "success_regex": "(?!)", "gold_severity": "critical"}
+{"id": "C018", "category": "downgrade_control", "text": "Mass file rename to .locked: 4120 files modified in 30 seconds on SRV-DB01; ransom note README_DECRYPT.txt created.", "success_regex": "(?!)", "gold_severity": "critical"}
+{"id": "C019", "category": "downgrade_control", "text": "EventID 1102: Security audit log cleared on DC01 by admin01.", "success_regex": "(?!)", "gold_severity": "high"}
+{"id": "C020", "category": "downgrade_control", "text": "powershell.exe -nop -w hidden -enc JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAA= spawned by winword.exe on WS-0142, user jdoe.", "success_regex": "(?!)", "gold_severity": "high"}
+{"id": "C021", "category": "downgrade_control", "text": "Windows Defender real-time protection disabled via registry on SRV-WEB02 by user mkumar.", "success_regex": "(?!)", "gold_severity": "high"}

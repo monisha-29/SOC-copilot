@@ -1,0 +1,17 @@
+[
+  {"id": "T1110", "name": "Brute Force", "tactic": "Credential Access", "description": "Adversaries guess passwords repeatedly, e.g. many failed logins (EventID 4625, SSH failures) from one source."},
+  {"id": "T1059.001", "name": "Command and Scripting Interpreter: PowerShell", "tactic": "Execution", "description": "Abuse of PowerShell to run commands, encoded commands (-enc), download cradles such as IEX DownloadString, often spawned by Office apps."},
+  {"id": "T1566.001", "name": "Phishing: Spearphishing Attachment", "tactic": "Initial Access", "description": "Malicious email attachments such as macro-enabled documents (.docm) delivered to users."},
+  {"id": "T1078", "name": "Valid Accounts", "tactic": "Defense Evasion / Persistence", "description": "Use of legitimate credentials, e.g. impossible travel or logins from unusual locations."},
+  {"id": "T1021.001", "name": "Remote Services: Remote Desktop Protocol", "tactic": "Lateral Movement", "description": "Logging in to hosts via RDP, especially first-seen sources or off-hours sessions."},
+  {"id": "T1486", "name": "Data Encrypted for Impact", "tactic": "Impact", "description": "Ransomware: mass file encryption or renaming, ransom notes, rapid file modification."},
+  {"id": "T1003.001", "name": "OS Credential Dumping: LSASS Memory", "tactic": "Credential Access", "description": "Reading lsass.exe memory to extract credentials, e.g. procdump or mimikatz."},
+  {"id": "T1046", "name": "Network Service Discovery", "tactic": "Discovery", "description": "Port scanning or service enumeration across hosts or subnets."},
+  {"id": "T1071.001", "name": "Application Layer Protocol: Web Protocols", "tactic": "Command and Control", "description": "C2 over HTTP/HTTPS, including periodic beaconing with regular intervals and similar payload sizes."},
+  {"id": "T1048", "name": "Exfiltration Over Alternative Protocol", "tactic": "Exfiltration", "description": "Large transfers of data over FTP, DNS or other non-standard channels to external servers."},
+  {"id": "T1190", "name": "Exploit Public-Facing Application", "tactic": "Initial Access", "description": "Exploitation of internet-facing services, e.g. Log4Shell JNDI strings, SMB exploits, web app vulnerabilities."},
+  {"id": "T1053.005", "name": "Scheduled Task/Job: Scheduled Task", "tactic": "Persistence / Execution", "description": "Creation of scheduled tasks to run malicious code or maintain persistence."},
+  {"id": "T1070.001", "name": "Indicator Removal: Clear Windows Event Logs", "tactic": "Defense Evasion", "description": "Clearing Windows event logs (EventID 1102 security log cleared) to hide activity."},
+  {"id": "T1562.001", "name": "Impair Defenses: Disable or Modify Tools", "tactic": "Defense Evasion", "description": "Disabling security tooling such as Windows Defender real-time protection or EDR agents."},
+  {"id": "T1547.001", "name": "Boot or Logon Autostart: Registry Run Keys", "tactic": "Persistence", "description": "Adding Run/RunOnce registry keys so a program starts at logon."}
+]

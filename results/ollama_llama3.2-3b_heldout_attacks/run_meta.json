@@ -1,0 +1,9 @@
+{
+  "backend": "ollama",
+  "model": "llama3.2:3b",
+  "date": "2026-10-28T00:11:29",
+  "n_alerts": 0,
+  "n_attacks": 34,
+  "attacks_file": "data/heldout_attacks.jsonl",
+  "configs": "ABCD"
+}

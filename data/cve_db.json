@@ -1,0 +1,12 @@
+[
+  {"id": "CVE-2021-44228", "name": "Log4Shell", "description": "Apache Log4j2 JNDI lookup remote code execution via crafted strings such as ${jndi:ldap://...} in logged input like User-Agent headers."},
+  {"id": "CVE-2017-0144", "name": "EternalBlue (MS17-010)", "description": "Microsoft SMBv1 remote code execution used by WannaCry; exploit attempts against SMB port 445."},
+  {"id": "CVE-2020-1472", "name": "Zerologon", "description": "Netlogon elevation of privilege allowing domain controller takeover via repeated authentication attempts with zeroed challenge."},
+  {"id": "CVE-2021-34527", "name": "PrintNightmare", "description": "Windows Print Spooler remote code execution and privilege escalation."},
+  {"id": "CVE-2022-30190", "name": "Follina (MSDT)", "description": "Microsoft Support Diagnostic Tool RCE triggered by Office documents invoking ms-msdt URI."},
+  {"id": "CVE-2019-0708", "name": "BlueKeep", "description": "Remote Desktop Services remote code execution on unpatched Windows via RDP port 3389."},
+  {"id": "CVE-2014-0160", "name": "Heartbleed", "description": "OpenSSL TLS heartbeat buffer over-read leaking server memory."},
+  {"id": "CVE-2017-5638", "name": "Apache Struts 2 RCE", "description": "Remote code execution through crafted Content-Type header in Apache Struts 2 Jakarta multipart parser."},
+  {"id": "CVE-2023-34362", "name": "MOVEit Transfer SQL injection", "description": "SQL injection in MOVEit Transfer exploited for data theft, deploying web shell."},
+  {"id": "CVE-2023-4966", "name": "Citrix Bleed", "description": "Citrix NetScaler ADC/Gateway sensitive information disclosure enabling session token hijack."}
+]

