@@ -91,8 +91,11 @@ def main():
     if a.skip_utility and not tag:
         tag = "attacks-only"
     name = f"{a.backend}_{(a.model or 'default').replace(':', '-')}" + (f"_{tag}" if tag else "")
-    out = ROOT / "results" / name
-    out.mkdir(parents=True, exist_ok=True)
+    out, k = ROOT / "results" / name, 2
+    while out.exists():                      # never overwrite an earlier run: add _2, _3, ...
+        out = ROOT / "results" / f"{name}_{k}"
+        k += 1
+    out.mkdir(parents=True)
 
     rows, items = [], []
     for cfg in a.configs:
